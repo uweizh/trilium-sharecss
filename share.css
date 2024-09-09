@@ -1,0 +1,112 @@
+a {
+    text-decoration: none;
+    color: #3d3a33;
+}
+
+ul li {
+    list-style-type: none;
+    /* 移除列表项前的项目符号 */
+    padding-left: 0;
+    /* 移除列表项内部的左内边距 */
+    margin-left: 0;
+    /* 移除列表项内部的左外边距 */
+}
+
+#layout {
+    align-items: flex-start;
+}
+
+#main {
+    margin: 25px 10px;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 0 10px 5px rgba(165, 170, 168, 0.253);
+}
+
+#title {
+    padding: 5px 20px;
+    background: linear-gradient(135deg, #17ead9, #6078ea);
+    border-radius: 10px;
+}
+
+#parentLink {
+    margin-right: 20px;
+}
+
+#menu {
+    position: sticky;
+    top: 25px;
+    margin: 25px 10px;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px 5px rgba(165, 170, 168, 0.253);
+    overflow: hidden;
+}
+
+#menu::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    /* 背景图片覆盖整个容器 */
+    background-position: center;
+    /* 背景图片居中 */
+    background-repeat: no-repeat;
+    /* 背景图片不重复 */
+    filter: blur(0px);
+    /* 添加模糊效果 */
+    z-index: -1;
+    /* 将伪元素置于内容下方 */
+}
+
+#menu>p:first-child {
+    padding: 5px 20px;
+    border-bottom: 2px solid #736e60;
+    border-radius: 10px;
+    color: #ffffff;
+    background: url('https://images.unsplash.com/photo-1518531933037-91b2f5f229cc');
+}
+
+#menu>p:first-child a {
+    color: #ffffff;
+}
+
+.ck-content pre {
+    background: linear-gradient(135deg, #000000, #434343);
+    color: #ff9b04;
+    border-radius: 10px;
+    font-family: 'Consolas', monospace;
+    color: linear-gradient(135deg, #7117ea, #ea6060);
+}
+
+#parentLink {
+    font-weight: bold;
+}
+
+#parentLink a {
+    padding-left: 10px;
+    color: #ffffff;
+}
+
+#childLinks ul li {
+    margin: 5px 10px;
+    padding: 0px 8px;
+    border-radius: 10px;
+    background: linear-gradient(135deg, #fad7a1, #e96d71);
+}
+
+#childLinks.grid ul li a {
+    border: none;
+}
+
+#childLinks.grid ul li a:hover {
+    color: white;
+    /* 鼠标放上时的文字颜色 */
+    background-color: rgba(255, 255, 255, 0.2);
+    /* 鼠标放上时的背景颜色 */
+    text-decoration: underline;
+    /* 鼠标放上时添加下划线 */
+}
