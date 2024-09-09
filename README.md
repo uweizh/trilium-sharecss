@@ -19,4 +19,7 @@
 添加新关系
 ![image](https://github.com/user-attachments/assets/31320c4c-42be-4051-914c-47f2b125f871)
 ![image](https://github.com/user-attachments/assets/1572eeef-86b0-42a7-9770-7ef879e46d65)
+![image](https://github.com/user-attachments/assets/d57c2704-1bde-4951-8a5a-1e08cbdabcf8)
+![image](https://github.com/user-attachments/assets/3a67271a-4563-4f20-b165-f98c59310a18)
+
 
