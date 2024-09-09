@@ -1,4 +1,13 @@
 # trilium-sharecss 样式
+部分截图：
+![image](https://github.com/user-attachments/assets/233f2aa7-7754-4c47-9400-1e2a44c0a4a1)
+![image](https://github.com/user-attachments/assets/e4250f15-0bd9-419a-903e-6610794fb34a)
+
+2024-09-09 新增更新
+- 目录栏目跟随屏幕
+
+后续不定期更新，可能会增加JS部分
+
 ## 使用前
 ### 示例1：
 ![image](https://github.com/user-attachments/assets/3dde5e7f-0770-48af-8937-b6aad32861a6)
@@ -20,6 +29,5 @@
 ![image](https://github.com/user-attachments/assets/31320c4c-42be-4051-914c-47f2b125f871)
 ![image](https://github.com/user-attachments/assets/1572eeef-86b0-42a7-9770-7ef879e46d65)
 ![image](https://github.com/user-attachments/assets/d57c2704-1bde-4951-8a5a-1e08cbdabcf8)
-![image](https://github.com/user-attachments/assets/3a67271a-4563-4f20-b165-f98c59310a18)
-
+![image](https://github.com/user-attachments/assets/333be769-29cc-46c7-b77f-e38f47ae4e8f)
 
