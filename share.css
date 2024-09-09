@@ -82,13 +82,12 @@ ul li {
     color: linear-gradient(135deg, #7117ea, #ea6060);
 }
 
-.content pre {
+#content pre {
     background: linear-gradient(135deg, #000000, #434343);
     color: #ff9b04;
     border-radius: 10px;
     font-family: 'Consolas', monospace;
     color: linear-gradient(135deg, #7117ea, #ea6060);
-
 }
 
 #parentLink {
